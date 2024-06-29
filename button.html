@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+          function msg(){
+             var x=document.getElementById("ta").value;
+         document.getElementById("p1").innerHTML=x;          
+          }       
+</script>
+</head>
+<body>
+<textArea id="ta" place-holder="Message...!" >
+</textArea><br>
+<input type="button" value="send->"onclick="msg()">
+<button  onclick="document.getElementById('ta').value=''">clear</button>
+</body>
+</html>
